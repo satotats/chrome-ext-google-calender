@@ -1,0 +1,17 @@
+{
+    "name": "Google Calender Utility: switch view by scroll",
+    "description": "ctrl+scrollでview(年/月/週/日)の切り替えを可能にしたかったextension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://calendar.google.com/"
+    ]
+}
